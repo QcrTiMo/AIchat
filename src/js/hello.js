@@ -1,5 +1,4 @@
 import chatLogo from '/pictures/aichat.png';
-import { setupCounter } from '../utils/counter.js'; // 注意路径
 
 export function showHelloPage(userName) {
     document.querySelector('#app').innerHTML = `
